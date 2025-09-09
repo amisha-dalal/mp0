@@ -1,3 +1,44 @@
-.text {
-    color: blue;
+.card {
+    background-color: #f0d8e5;
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    color: #090126;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    img {
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+    }
+    h1 {
+        font-weight: bold;
+    }
+    h1:active {
+        color: purple;
+    }
+    h2 {
+        font-weight: lighter;
+        font-style: italic;
+    }
+    h2:hover {
+        color: cadetblue;
+    }
+    a {
+        color: #5e1938;
+        font-size: larger;
+    }
+    a:visited {
+        color: #230e36;
+    }
+    p {
+        margin-left: 15%;
+        margin-right: 15%;
+        padding: 20px;
+        border-style: solid;
+        border-color:#5e1938;
+        border-radius: 20px;
+        line-height: 2em;
+
+    }
 }
